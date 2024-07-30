@@ -9,7 +9,7 @@ console.log(printFruits("사과", "오렌지"));
 //2번 문제
 
 function checkAge(age) {
-    if (age > 19) {
+    if (age >= 19) {
         console.log("안녕하세요");
     } else {
         console.log("나가세요");
@@ -22,7 +22,7 @@ checkAge(19);
 
 function repeatWorld(str, n) {
     for (let i = 0; i < n; i++) {
-        console.log(str);
+        console.log(str)
     }
 }
 
