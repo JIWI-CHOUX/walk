@@ -17,6 +17,8 @@ let starbucks = [
     },
   ];
 
-  const icedOnly = starbucks.filter(item => item.icedOnly === true);
-  
-  console.log(icedOnly);
+  const icedOnly = starbucks.filter(function (item) {
+    if(item.icedOnly === true) {
+      console.log(item);
+    }
+  });
